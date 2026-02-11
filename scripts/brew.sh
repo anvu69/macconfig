@@ -82,4 +82,13 @@ else
     print_success "FiraCode Nerd Font installed"
 fi
 
+# AeroSpace - Tiling Window Manager
+print_warning "Installing AeroSpace..."
+if brew list --cask nikitabobko/tap/aerospace &>/dev/null; then
+    print_success "AeroSpace already installed"
+else
+    brew install --cask nikitabobko/tap/aerospace
+    print_success "AeroSpace installed"
+fi
+
 print_success "All Homebrew packages installed"

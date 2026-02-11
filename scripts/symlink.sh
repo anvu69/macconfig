@@ -60,4 +60,7 @@ fi
 # Yazi file manager
 create_symlink "$DOTFILE_DIR/yazi" "$HOME/.config/yazi"
 
+# AeroSpace tiling window manager
+create_symlink "$DOTFILE_DIR/aerospace" "$HOME/.config/aerospace"
+
 print_success "All symlinks created"

@@ -8,6 +8,7 @@ Bộ dotfiles để setup môi trường terminal cho macOS với theme **Catppu
 - **Oh My Zsh + Powerlevel10k** - Zsh framework với theme đẹp
 - **Oh My Tmux** - Tmux configuration framework
 - **LazyVim + Claude Code** - Neovim config với AI coding assistant
+- **AeroSpace** - Tiling window manager cho macOS
 - **Modern CLI Tools** - bat, eza, ripgrep, fd, fzf, và nhiều hơn nữa
 
 ## 🛠️ CLI Tools
@@ -69,8 +70,10 @@ dotfile/
 │       └── plugins/       # Plugin configs
 │           ├── colorscheme.lua
 │           └── claudecode.lua  # Claude Code AI
-└── tmux/
-    └── .tmux.conf.local   # Oh My Tmux config (Catppuccin)
+├── tmux/
+│   └── .tmux.conf.local   # Oh My Tmux config (Catppuccin)
+└── aerospace/
+    └── aerospace.toml     # AeroSpace tiling WM config
 ```
 
 ## 🎨 Theme
@@ -135,6 +138,24 @@ tmux
 nvim
 # LazyVim sẽ tự động cài plugins
 ```
+
+### 4. AeroSpace sẽ tự khởi động cùng macOS
+Cấu hình đã bật `start-at-login = true`.
+
+## 🪟 AeroSpace Keybindings
+
+| Phím tắt | Chức năng |
+|----------|----------|
+| `alt-shift-f` | **Toggle Fullscreen** |
+| `alt-h/j/k/l` | Focus left/down/up/right |
+| `alt-shift-h/j/k/l` | Move window left/down/up/right |
+| `alt-1..9` | Switch to workspace 1-9 |
+| `alt-shift-1..9` | Move window to workspace 1-9 |
+| `alt-slash` | Toggle tiles layout |
+| `alt-comma` | Toggle accordion layout |
+| `alt-minus/equal` | Resize window |
+| `alt-tab` | Switch to previous workspace |
+| `alt-shift-semicolon` | Enter service mode |
 
 ## 📝 Custom Aliases
 

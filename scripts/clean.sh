@@ -122,6 +122,13 @@ backup_and_remove "$HOME/.tmux"
 backup_and_remove "$HOME/.config/starship.toml"
 
 # ==============================================================================
+# AeroSpace
+# ==============================================================================
+
+backup_and_remove "$HOME/.config/aerospace"
+backup_and_remove "$HOME/.aerospace.toml"
+
+# ==============================================================================
 # Other dotfiles that might conflict
 # ==============================================================================
 
