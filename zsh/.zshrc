@@ -81,6 +81,9 @@ export PATH="$HOME/.local/bin:$PATH"
 # Tool Initializations
 # ==============================================================================
 
+# Disable control character echo (hide ^C, ^M etc.)
+stty -echoctl
+
 # Zoxide (better cd)
 eval "$(zoxide init zsh)"
 
