@@ -91,4 +91,22 @@ else
     print_success "AeroSpace installed"
 fi
 
+# yabai - Tiling Window Manager
+print_warning "Installing yabai..."
+if brew list yabai &>/dev/null; then
+    print_success "yabai already installed"
+else
+    brew install koekeishiya/formulae/yabai
+    print_success "yabai installed"
+fi
+
+# skhd - Simple Hotkey Daemon (keybindings for yabai)
+print_warning "Installing skhd..."
+if brew list skhd &>/dev/null; then
+    print_success "skhd already installed"
+else
+    brew install koekeishiya/formulae/skhd
+    print_success "skhd installed"
+fi
+
 print_success "All Homebrew packages installed"

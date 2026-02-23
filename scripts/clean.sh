@@ -129,6 +129,15 @@ backup_and_remove "$HOME/.config/aerospace"
 backup_and_remove "$HOME/.aerospace.toml"
 
 # ==============================================================================
+# yabai & skhd
+# ==============================================================================
+
+backup_and_remove "$HOME/.config/yabai"
+backup_and_remove "$HOME/.yabairc"
+backup_and_remove "$HOME/.config/skhd"
+backup_and_remove "$HOME/.skhdrc"
+
+# ==============================================================================
 # Other dotfiles that might conflict
 # ==============================================================================
 

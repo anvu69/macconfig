@@ -63,4 +63,10 @@ create_symlink "$DOTFILE_DIR/yazi" "$HOME/.config/yazi"
 # AeroSpace tiling window manager
 create_symlink "$DOTFILE_DIR/aerospace" "$HOME/.config/aerospace"
 
+# yabai tiling window manager
+create_symlink "$DOTFILE_DIR/yabai" "$HOME/.config/yabai"
+
+# skhd hotkey daemon (keybindings for yabai)
+create_symlink "$DOTFILE_DIR/skhd" "$HOME/.config/skhd"
+
 print_success "All symlinks created"
