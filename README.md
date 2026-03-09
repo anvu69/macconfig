@@ -8,7 +8,8 @@ Bộ dotfiles để setup môi trường terminal cho macOS với theme **Catppu
 - **Oh My Zsh + Powerlevel10k** - Zsh framework với theme đẹp
 - **Oh My Tmux** - Tmux configuration framework
 - **LazyVim + Claude Code** - Neovim config với AI coding assistant
-- **AeroSpace** - Tiling window manager cho macOS
+- **AeroSpace** - Tiling window manager cho macOS (default)
+- **yabai + skhd** - Alternative tiling WM (optional)
 - **Modern CLI Tools** - bat, eza, ripgrep, fd, fzf, và nhiều hơn nữa
 
 ## 🛠️ CLI Tools
@@ -38,6 +39,11 @@ Bộ dotfiles để setup môi trường terminal cho macOS với theme **Catppu
 git clone https://github.com/YOUR_USERNAME/dotfile.git ~/Desktop/Projects/dotfile
 cd ~/Desktop/Projects/dotfile
 ./install.sh
+```
+
+Để cài thêm yabai + skhd (optional):
+```bash
+INSTALL_YABAI_SKHD=true ./install.sh
 ```
 
 Script sẽ tự động:
@@ -72,8 +78,11 @@ dotfile/
 │           └── claudecode.lua  # Claude Code AI
 ├── tmux/
 │   └── .tmux.conf.local   # Oh My Tmux config (Catppuccin)
-└── aerospace/
-    └── aerospace.toml     # AeroSpace tiling WM config
+├── aerospace/
+│   └── aerospace.toml     # AeroSpace tiling WM config (default)
+├── yabai/                 # (optional) yabai config
+└── skhd/
+    └── skhdrc             # (optional) skhd keybindings for yabai
 ```
 
 ## 🎨 Theme

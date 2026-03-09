@@ -140,3 +140,4 @@ export ANTHROPIC_BASE_URL="http://localhost:8317"
 export ANTHROPIC_API_KEY="sk-EPJE1moyRxkq1IcATwdrbz0DzSEeU769"
 
 alias claude-mem='bun "/Users/admin/.claude/plugins/marketplaces/thedotmack/plugin/scripts/worker-service.cjs"'
+export CLOUDFLARE_API_TOKEN="fpLFH-Ar9E0QVpz4mjDF1C1fztx5C2aBFRCkRv14"
